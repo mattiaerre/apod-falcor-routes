@@ -22,7 +22,9 @@ app.use('/', index);
 const options = { middlewarePath: '/falcor-postman', falcorModelPath: '/api/v1/model.json', app };
 app.use(falcorPostman(options));
 
-app.use('/api/v1/model.json', falcorExpress.dataSourceRoute(() => (new Router(falcorApodRoutes(process.env.NASA_API_KEY)))));
+const apiKey = process.env.NASA_API_KEY || 'DEMO_KEY';
+
+app.use('/api/v1/model.json', falcorExpress.dataSourceRoute(() => (new Router(falcorApodRoutes(apiKey)))));
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port);

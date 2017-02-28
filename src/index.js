@@ -1,4 +1,7 @@
+const jsonGraph = require('falcor-json-graph');
 const fetch = require('node-fetch');
+
+const $error = jsonGraph.error;
 
 const routes = apiKey => (
   [
@@ -8,7 +11,12 @@ const routes = apiKey => (
         const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
         const results = [];
         await fetch(url)
-          .then(response => (response.json()))
+          .then((response) => {
+            if (response.status !== 200) {
+              throw new Error(`url: ${response.url} status: ${response.status} statusText: ${response.statusText}`);
+            }
+            return response.json();
+          })
           .then((json) => {
             if (pathSet[1].includes('title')) {
               results.push({
@@ -23,7 +31,12 @@ const routes = apiKey => (
               });
             }
           })
-          .catch(() => { /* TODO */ });
+          .catch((error) => {
+            results.push({
+              path: pathSet,
+              value: $error(error.message)
+            });
+          });
         return results;
       }
     }
