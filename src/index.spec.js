@@ -36,7 +36,7 @@ const video = require('./sample-video');
   });
 });
 
-const jsonGraph = require('falcor-json-graph');
+const jsonGraph = require('@graphistry/falcor-json-graph');
 
 const $error = jsonGraph.error;
 

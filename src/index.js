@@ -1,4 +1,4 @@
-const jsonGraph = require('falcor-json-graph');
+const jsonGraph = require('@graphistry/falcor-json-graph');
 const fetch = require('node-fetch');
 
 const $error = jsonGraph.error;

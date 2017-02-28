@@ -26,12 +26,12 @@
     "jest": "^19.0.2"
   },
   "dependencies": {
+    "@graphistry/falcor-json-graph": "^2.8.0",
     "babel-core": "^6.23.1",
     "babel-plugin-transform-async-to-generator": "^6.22.0",
     "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.22.0",
     "babel-preset-stage-1": "^6.22.0",
-    "falcor-json-graph": "^1.1.7",
     "jest-fetch-mock": "^1.0.8",
     "node-fetch": "^1.6.3"
   }
