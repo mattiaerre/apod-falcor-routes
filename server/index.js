@@ -1,4 +1,4 @@
-const debug = require('debug')('falcor-apod-routes:server');
+const debug = require('debug')('apod-falcor-routes:server');
 require('dotenv').config();
 const express = require('express');
 const favicon = require('express-favicon-short-circuit');

@@ -1,12 +1,12 @@
-# falcor-apod-routes
+# apod-falcor-routes
 
-falcor-apod-routes
+apod-falcor-routes
 
 ## Demo
 
 ```bash
-➜  falcor-apod-routes git:(master) ✗ yarn
-➜  falcor-apod-routes git:(master) ✗ cd server
+➜  apod-falcor-routes git:(master) ✗ yarn
+➜  apod-falcor-routes git:(master) ✗ cd server
 ➜  server git:(master) ✗ yarn
 ➜  server git:(master) ✗ yarn start:dev
 ```
@@ -35,5 +35,5 @@ falcor-apod-routes
 ## Test (w/ coverage)
 
 ```bash
-➜  falcor-apod-routes git:(master) ✗ yarn test -- --coverage
+➜  apod-falcor-routes git:(master) ✗ yarn test -- --coverage
 ```

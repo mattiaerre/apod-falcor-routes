@@ -1,22 +1,22 @@
 {
-  "name": "falcor-apod-routes",
+  "name": "apod-falcor-routes",
   "version": "1.0.0",
-  "description": "falcor-apod-routes",
+  "description": "apod-falcor-routes",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattiaerre/falcor-apod-routes.git"
+    "url": "git+https://github.com/mattiaerre/apod-falcor-routes.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mattiaerre/falcor-apod-routes/issues"
+    "url": "https://github.com/mattiaerre/apod-falcor-routes/issues"
   },
-  "homepage": "https://github.com/mattiaerre/falcor-apod-routes#readme",
+  "homepage": "https://github.com/mattiaerre/apod-falcor-routes#readme",
   "devDependencies": {
     "eslint": "^3.16.1",
     "eslint-config-airbnb": "^14.1.0",
