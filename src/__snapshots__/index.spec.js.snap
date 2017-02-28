@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error 1`] = `
+Object {
+  "$type": "error",
+  "value": "Oh Noes!",
+}
+`;
+
+exports[`image get copyright 1`] = `undefined`;
+
+exports[`image get date 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "date",
+  ],
+  "value": "2017-02-28",
+}
+`;
+
+exports[`image get explanation 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "explanation",
+  ],
+  "value": "This storm cloud on Jupiter is almost as large as the Earth.  Known as a white oval, the swirling cloud is a high pressure system equivalent to an Earthly anticyclone. The cloud is one of a \\"string of pearls\\" ovals south of Jupiter's famous Great Red Spot.  Possibly, the Great Red Spot is just a really large white oval than turned red.  Surrounding clouds show interesting turbulence as they flow around and past the oval.  The featured image was captured on February 2 as NASA's robotic spacecraft Juno made a new pass just above the cloud tops of the Jovian world.  Over the next few years, Juno will continue to orbit and probe Jupiter, determine atmospheric water abundance, and attempt to determine if Jupiter has a solid surface beneath its thick clouds.",
+}
+`;
+
+exports[`image get hdurl 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "hdurl",
+  ],
+  "value": "http://apod.nasa.gov/apod/image/1702/WhiteOval_Juno_640.jpg",
+}
+`;
+
+exports[`image get media_type 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "media_type",
+  ],
+  "value": "image",
+}
+`;
+
+exports[`image get title 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "title",
+  ],
+  "value": "A White Oval Cloud on Jupiter from Juno",
+}
+`;
+
+exports[`image get url 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "url",
+  ],
+  "value": "http://apod.nasa.gov/apod/image/1702/WhiteOval_Juno_960.jpg",
+}
+`;
+
+exports[`video get copyright 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "copyright",
+  ],
+  "value": "Yuri Beletsky",
+}
+`;
+
+exports[`video get date 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "date",
+  ],
+  "value": "2017-02-21",
+}
+`;
+
+exports[`video get explanation 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "explanation",
+  ],
+  "value": "The night sky is always changing.  Featured here are changes that occurred over a six hour period in late 2014 June behind the dual 6.5-meter Magellan Telescopes at Las Campanas Observatory in Chile. The initial red glow on the horizon is airglow, a slight cooling of high air by the emission of specific colors of light. Bands of airglow are also visible throughout the time-lapse video. Early in the night, car headlights flash on the far left.  Satellites quickly shoot past as they circle the Earth and reflect sunlight. A long and thin cloud passes slowly overhead.  The Large Magellanic Cloud rises on the left, while the expansive central band of our Milky Way Galaxy arches and pivots as the Earth rotates.  As the night progresses, the Magellan telescopes swivel and stare as they explore pre-determined patches of the night sky. Every night, every sky changes differently, even though the phenomena at play are usually the same.   Explore the Universe: Random APOD Generator",
+}
+`;
+
+exports[`video get hdurl 1`] = `undefined`;
+
+exports[`video get media_type 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "media_type",
+  ],
+  "value": "video",
+}
+`;
+
+exports[`video get title 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "title",
+  ],
+  "value": "An Active Night over the Magellan Telescopes",
+}
+`;
+
+exports[`video get url 1`] = `
+Object {
+  "path": Array [
+    "apod",
+    "url",
+  ],
+  "value": "https://www.youtube.com/embed/hkLRmQC7fR4?rel=0&showinfo=0",
+}
+`;

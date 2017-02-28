@@ -10,3 +10,9 @@ falcor-apod-routes
 ➜  server git:(master) ✗ yarn
 ➜  server git:(master) ✗ yarn start:dev
 ```
+
+## Test (w/ coverage)
+
+```bash
+➜  falcor-apod-routes git:(master) ✗ yarn test -- --coverage
+```

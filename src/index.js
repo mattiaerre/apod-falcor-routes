@@ -3,10 +3,12 @@ const fetch = require('node-fetch');
 
 const $error = jsonGraph.error;
 
+const { APOD, COPYRIGHT, DATE, EXPLANATION, HDURL, MEDIA_TYPE, TITLE, URL } = require('./constants');
+
 const routes = apiKey => (
   [
     {
-      route: 'apod["title", "url"]',
+      route: `${APOD}["${COPYRIGHT}", "${DATE}", "${EXPLANATION}", "${HDURL}", "${MEDIA_TYPE}", "${TITLE}", "${URL}"]`,
       async get(pathSet) {
         const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
         const results = [];
@@ -18,18 +20,16 @@ const routes = apiKey => (
             return response.json();
           })
           .then((json) => {
-            if (pathSet[1].includes('title')) {
-              results.push({
-                path: ['apod', 'title'],
-                value: json.title
-              });
-            }
-            if (pathSet[1].includes('url')) {
-              results.push({
-                path: ['apod', 'url'],
-                value: json.url
-              });
-            }
+            [DATE, COPYRIGHT, EXPLANATION, HDURL, MEDIA_TYPE, TITLE, URL].forEach((path) => {
+              if (pathSet[1].includes(path)) {
+                if (json[path]) {
+                  results.push({
+                    path: [APOD, path],
+                    value: json[path]
+                  });
+                }
+              }
+            });
           })
           .catch((error) => {
             results.push({
