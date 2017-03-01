@@ -1,7 +1,7 @@
 {
   "name": "apod-falcor-routes",
   "version": "1.0.0",
-  "description": "apod-falcor-routes",
+  "description": "Astronomy Picture of the Day as a Graphistry Falcor routes",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -10,8 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/mattiaerre/apod-falcor-routes.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "apod",
+    "astro",
+    "astronomy",
+    "day",
+    "falcor",
+    "graphistry",
+    "nasa",
+    "pic",
+    "picture",
+    "routes"
+  ],
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mattiaerre/apod-falcor-routes/issues"
