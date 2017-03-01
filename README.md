@@ -37,3 +37,9 @@ Astronomy Picture of the Day as a Graphistry Falcor routes
 ```bash
 ➜  apod-graphistry-falcor-routes git:(master) ✗ yarn test -- --coverage
 ```
+
+## Resources
+
+- [https://github.com/Netflix/falcor/](https://github.com/Netflix/falcor/)
+
+- [https://github.com/graphistry/falcor](https://github.com/graphistry/falcor)
