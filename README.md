@@ -1,12 +1,12 @@
-# apod-falcor-routes
+# apod-graphistry-falcor-routes
 
 Astronomy Picture of the Day as a Graphistry Falcor routes
 
 ## Demo
 
 ```bash
-➜  apod-falcor-routes git:(master) ✗ yarn
-➜  apod-falcor-routes git:(master) ✗ cd server
+➜  apod-graphistry-falcor-routes git:(master) ✗ yarn
+➜  apod-graphistry-falcor-routes git:(master) ✗ cd server
 ➜  server git:(master) ✗ yarn
 ➜  server git:(master) ✗ yarn start:dev
 ```
@@ -35,5 +35,5 @@ Astronomy Picture of the Day as a Graphistry Falcor routes
 ## Test (w/ coverage)
 
 ```bash
-➜  apod-falcor-routes git:(master) ✗ yarn test -- --coverage
+➜  apod-graphistry-falcor-routes git:(master) ✗ yarn test -- --coverage
 ```

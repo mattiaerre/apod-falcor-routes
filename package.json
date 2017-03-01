@@ -1,5 +1,5 @@
 {
-  "name": "apod-falcor-routes",
+  "name": "apod-graphistry-falcor-routes",
   "version": "1.0.0",
   "description": "Astronomy Picture of the Day as a Graphistry Falcor routes",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattiaerre/apod-falcor-routes.git"
+    "url": "git+https://github.com/mattiaerre/apod-graphistry-falcor-routes.git"
   },
   "keywords": [
     "apod",
@@ -28,9 +28,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mattiaerre/apod-falcor-routes/issues"
+    "url": "https://github.com/mattiaerre/apod-graphistry-falcor-routes/issues"
   },
-  "homepage": "https://github.com/mattiaerre/apod-falcor-routes#readme",
+  "homepage": "https://github.com/mattiaerre/apod-graphistry-falcor-routes#readme",
   "devDependencies": {
     "eslint": "^3.16.1",
     "eslint-config-airbnb": "^14.1.0",
