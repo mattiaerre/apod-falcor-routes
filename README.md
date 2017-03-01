@@ -1,6 +1,6 @@
 # apod-falcor-routes
 
-apod-falcor-routes
+Astronomy Picture of the Day as a Graphistry Falcor routes
 
 ## Demo
 
