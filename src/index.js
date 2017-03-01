@@ -1,3 +1,6 @@
+require('babel-core/register');
+require('babel-polyfill');
+
 const jsonGraph = require('@graphistry/falcor-json-graph');
 const fetch = require('node-fetch');
 

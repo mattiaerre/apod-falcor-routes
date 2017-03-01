@@ -7,7 +7,7 @@ const falcorPostman = require('falcor-postman');
 const Router = require('@graphistry/falcor-router');
 const path = require('path');
 const index = require('./routes');
-const falcorApodRoutes = require('../index');
+const falcorApodRoutes = require('../lib/index');
 
 const app = express();
 app.locals.pretty = true;
