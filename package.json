@@ -1,6 +1,6 @@
 {
   "name": "apod-graphistry-falcor-routes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Astronomy Picture of the Day as a Graphistry Falcor routes",
   "main": "lib/index.js",
   "scripts": {
