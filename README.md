@@ -11,6 +11,8 @@ Astronomy Picture of the Day as a Graphistry Falcor routes
 ➜  server git:(master) ✗ yarn start:dev
 ```
 
+![falcor-postman](falcor-postman.png "falcor-postman")
+
 ### Query
 
 ```json
