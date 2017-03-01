@@ -2,6 +2,22 @@
 # yarn lockfile v1
 
 
+"@graphistry/falcor-path-syntax@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@graphistry/falcor-path-syntax/-/falcor-path-syntax-2.8.0.tgz#72db2b1ab684cffaa43ebbc97fd478f505962bb2"
+
+"@graphistry/falcor-path-utils@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@graphistry/falcor-path-utils/-/falcor-path-utils-2.8.0.tgz#b590870dc19c34ccd62a98f6976eba4000e33cc5"
+
+"@graphistry/falcor-router@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@graphistry/falcor-router/-/falcor-router-2.8.0.tgz#3411be726e09cab70558ae7798207600b0ef2ed4"
+  dependencies:
+    "@graphistry/falcor-path-syntax" "^2.8.0"
+    "@graphistry/falcor-path-utils" "^2.8.0"
+    rxjs "~5.1.1"
+
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -1162,10 +1178,6 @@ falcor-path-utils@0.3.4:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/falcor-path-utils/-/falcor-path-utils-0.3.4.tgz#9bb2174af80befdb7a30de37e8a5965ede11f465"
 
-falcor-path-utils@~0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/falcor-path-utils/-/falcor-path-utils-0.5.1.tgz#e05322f203d6b34cf9a407b4b75e5250849b5cdc"
-
 falcor-postman@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/falcor-postman/-/falcor-postman-2.0.0.tgz#8f06c08c0f4bd442ffe20300a073b83e40a00ec3"
@@ -1178,15 +1190,6 @@ falcor-postman@^2.0.0:
     react "^15.3.1"
     react-codemirror "^0.2.6"
     react-dom "^15.3.1"
-
-falcor-router@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/falcor-router/-/falcor-router-0.8.0.tgz#a1f7782e8eb22c12be818581be2b2999a6acd316"
-  dependencies:
-    falcor-path-syntax "0.2.4"
-    falcor-path-utils "~0.5.0"
-    rxjs "~5.1.1"
-    symbol-observable "^1.0.4"
 
 falcor@^0.1.17:
   version "0.1.17"
@@ -2570,7 +2573,7 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-symbol-observable@^1.0.1, symbol-observable@^1.0.4:
+symbol-observable@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.4.tgz#29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d"
 

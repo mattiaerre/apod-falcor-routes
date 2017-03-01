@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@graphistry/falcor-json-graph@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@graphistry/falcor-json-graph/-/falcor-json-graph-2.8.0.tgz#935bb3ebdd73b4c68613fa71b091904d4e04a654"
+  dependencies:
+    "@graphistry/falcor-path-syntax" "^2.8.0"
+
+"@graphistry/falcor-path-syntax@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@graphistry/falcor-path-syntax/-/falcor-path-syntax-2.8.0.tgz#72db2b1ab684cffaa43ebbc97fd478f505962bb2"
+
 abab@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -1396,16 +1406,6 @@ extglob@^0.3.1:
 extsprintf@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.0.2.tgz#e1080e0658e300b06294990cc70e1502235fd550"
-
-falcor-json-graph@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/falcor-json-graph/-/falcor-json-graph-1.1.7.tgz#81d6a456ad14e04b13d8cf8265836acbf7a3053b"
-  dependencies:
-    falcor-path-syntax "0.2.4"
-
-falcor-path-syntax@0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/falcor-path-syntax/-/falcor-path-syntax-0.2.4.tgz#6e72ba0bc236f4dda73040a001652792a32d8fc8"
 
 fast-levenshtein@~2.0.4:
   version "2.0.6"

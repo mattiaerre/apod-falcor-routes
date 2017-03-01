@@ -9,6 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@graphistry/falcor-router": "^2.8.0",
     "babel-core": "^6.23.1",
     "babel-plugin-transform-async-to-generator": "^6.22.0",
     "babel-polyfill": "^6.23.0",
@@ -20,7 +21,6 @@
     "express-favicon-short-circuit": "^1.1.0",
     "falcor-express": "^0.1.4",
     "falcor-postman": "^2.0.0",
-    "falcor-router": "^0.8.0",
     "pug": "^2.0.0-beta11"
   },
   "devDependencies": {
